@@ -15,7 +15,7 @@ bouncingImages = new Object();
 
 // CONFIGURATION:
 
-bouncingImages.imgCount = 3;
+bouncingImages.imgCount = 10;
 bouncingImages.imgWidth = 400;
 bouncingImages.imgHeight = 300;
 bouncingImages.imgSrc = 'joe.jpg';
