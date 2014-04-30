@@ -18,7 +18,7 @@ bouncingImages = new Object();
 bouncingImages.imgCount = 10;
 bouncingImages.imgWidth = 400;
 bouncingImages.imgHeight = 300;
-bouncingImages.imgSrc = 'joe.jpg';
+bouncingImages.imgSrc = 'joe.jpeg';
 
 bouncingImages.frameRate = 30;
 
@@ -36,7 +36,7 @@ bouncingImages.speedX = new Array();
 bouncingImages.speedY = new Array();
 var winWidth, winHeight;
 
-if (dyn) var preloadImgObj = loadImg(bouncingImages.imgSrc); 
+if (dyn) var preloadImgObj = loadImg(bouncingImages.imgSrc);
 
 function loadBouncingImages() {
    if (dyn && !bouncingImages.isLoaded) {
